@@ -19,6 +19,7 @@ CREATE TABLE "public"."Record" (
     "category" TEXT NOT NULL DEFAULT 'Other',
     "date" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "userId" TEXT NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
     CONSTRAINT "Record_pkey" PRIMARY KEY ("id")
 );
